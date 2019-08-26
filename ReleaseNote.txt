@@ -1,0 +1,22 @@
+[R00.00.03]
+Fix bug:
+  1. Setting for 88E6061 VLAN table feature. All ports connect CPU (P2) only and disable all unused ports.
+
+[R00.00.02] 2019-04-11
+Fix bug:
+  1. Redmine #1211£ºadd ethernet buffer count from 5 to 7;
+  2. Switch chip: Network loop.
+
+[R00.00.01] 2019-03-20
+New Feature:
+  none
+  
+Fix bug:
+  1. Redmine #811.  
+ 
+Internal bugs:
+  1. Change internal ip address in order to avoid conflict;
+  2. Change usart goio pin according to the new hardware;
+  3. Update timer to check if single frame data has been received completed;
+  4. Update ucosii task cycle work in order to accelerate. 
+

@@ -1,0 +1,1 @@
+1. the *_mad.c should not be included in the project
